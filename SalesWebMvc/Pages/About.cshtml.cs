@@ -12,7 +12,8 @@ namespace SalesWebMvc.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            ViewData["Message"] = "Salles Web MVC App From C# Course";
+            ViewData["Aluno"] = "Gustavo Laitano Penteado";
         }
     }
 }
